@@ -64,7 +64,7 @@ const App: React.FC = () => {
 
   return (
     <Authenticator>
-        {({ signOut, user }) => (
+        {({ signOut }) => (
     <main>
       <Flex direction="column">
       {pages[currentPage].component}
